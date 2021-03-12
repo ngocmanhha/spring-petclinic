@@ -1,7 +1,7 @@
 node {
   stage('Build and Test') {
     // build(job: "{isay}")
-    git url: "https://github.com/spring-project/spring-petclinic.git"
+    git url: "https://github.com/spring-projects/spring-petclinic.git"
 
     sh 'set -eu\n' +
         '# Build source code' +
